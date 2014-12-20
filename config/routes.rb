@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   #sets the url.com to url.com/pages/home
   root "pages#home"
   get "about" => "pages#about" #creates about_path
