@@ -4,7 +4,7 @@ class PinsController < ApplicationController
   # GET /pins
   # GET /pins.json
   
-  # sends to index.html and sends all the pins to the page
+  # sends to index.html and sends all the pins to the pages
   def index
     @pins = Pin.all
   end
