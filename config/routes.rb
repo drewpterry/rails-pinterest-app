@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :pins
+
   devise_for :users
   #sets the url.com to url.com/pages/home
   root "pages#home"
